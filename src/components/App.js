@@ -40,10 +40,10 @@ const App = () => {
         <div>
 
                 
-                <input type="text"  placeholder="First Name" data-testid="input1"
+                <input type="text"  placeholder="First Name" data-testid="input1" name="name1"
                     onChange = {(event) => setFirstName(event.target.value)}
                 /> 
-                <input type="text"  placeholder="Second Name" data-testid="input2"
+                <input type="text"  placeholder="Second Name" data-testid="input2" name="name2"
                      onChange = {(event) => setSecondName(event.target.value)}
                 />
                 <button onClick={findRelationShip} data-testid="calculate_relationship">Calculate Relationship Future</button>
